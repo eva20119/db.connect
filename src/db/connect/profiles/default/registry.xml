@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <registry>
     <records interface="db.connect.browser.configlet.IConnection" />
+    <records interface="db.connect.browser.base_inform_configlet.IInform" />
+
 </registry>
