@@ -10,20 +10,8 @@ from plone.directives import form as Form
 
 class IInform(Form.Schema):
 
-    email = schema.TextLine(
-        title=_(u'email'),
-        required=False,
-    )
-    cellphone = schema.TextLine(
-        title=_(u'cellphone'),
-        required=False,
-    )
-    address = schema.TextLine(
-        title=_(u'address'),
-        required=False
-    )
-    fax = schema.TextLine(
-        title=_(u'fax'),
+    rate = schema.Float(
+        title=_(u'Bonus rate'),
         required=False
     )
 
