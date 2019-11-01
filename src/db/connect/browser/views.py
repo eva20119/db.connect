@@ -4,9 +4,7 @@ from Products.Five.browser import BrowserView
 from plone import api
 from sqlalchemy import create_engine
 from db.connect.browser.configlet import IConnection
-import sys 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
 
 
 class SqlObj():
